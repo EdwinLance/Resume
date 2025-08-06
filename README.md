@@ -1,1 +1,251 @@
 # Resume
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #cfcece;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .left {
+      width: 35%;
+      background-color: #eee;
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+    .left h2 {
+      margin-top: 30px;
+    }
+
+    .left ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    .right {
+      width: 65%;
+      padding: 30px;
+    }
+
+    .right h1 {
+      margin: 0;
+    }
+
+    .right h3 {
+      margin-top: 5px;
+      color: #555;
+    }
+
+    .right section {
+      margin-top: 30px;
+    }
+
+    .right section h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .comment-section input, .comment-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .comment-section button {
+      background-color: #444;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .comment {
+      background: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .HOBBIES{
+      margin: 5;
+    }
+
+
+.download-btn {
+  
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="images/profile.png" alt="Profile Picture" width="150">
+
+
+    <h2>CONTACT</h2>
+      <p>📱 +639603682857</p>
+      <p>📩 lanced.delacruz@gmail.com</p>
+      <p>🏠 Blk 94 lot 71 Cristo Rey, Capas, Tarlac</p>
+
+      <hr>
+      <h2>MY SKILLS</h2>
+      <ul>
+        <li>• Project Management</li>
+        <li>
+        <li>•
+ Creativity</li>
+        
+        <li>•
+ Computer Literate</li>
+        <Li>•
+ Knowledge in Microsoft Word,Power Point and Excel</Li>
+
+      </ul>
+
+      <hr>
+      <section>
+      <h2>HOBBIES</h2>
+      <ul>
+        <li>•
+Guitar</li>
+        <li>•
+Games</li>
+        <li>•
+Coding</li>
+        <li>•
+Movies</li>
+      </ul>
+
+      <section>
+        <h2>REFERENCES</h2>
+
+        Jimuel S. Paras – Friend <BR>
+        Cristo Rey High School, Capas, Tarlac<BR>
+        📞: 0912-315-9682 <BR>
+            <br>
+        Rodrigo M. Pineda Jr. – Friened <BR>
+        Cristo Rey High School, Capas, Tarlac<BR>
+        📞: 0945-388-4952<BR>
+      </section>
+
+
+  </section>
+
+      <hr>
+  <a href="Edwin Lance-Dela Cruz-Resume.pdf" download>
+  <button style="margin-top: 15px; padding: 10px 20px; background-color: #333; color: white; border: none; cursor: pointer;">
+    📄 Download Resume
+  </button>
+</a>
+    
+
+</div>
+      <div class="right">
+        <h1>EDWIN LANCE DELA CRUZ</h1>
+        <h3>ASPIRING WEB DEVELOPER</h3>
+        <section>
+          <h2>OBJECTIVE</h2>
+          <p> To enhance my skills and ability to help myself, to become more useful, and to gain more knowledge.</P>
+        </section>
+        <section>
+        <h2>ABOUT ME</h2>
+        <p>Hello! I am Edwin Lance Dela Cruz, and I’m currently studying programming. I’m passionate about learning how to build websites, apps, and solve problems using code. I may be new, but I’m excited to grow and improve my skills every day.</p>
+      </section>
+        <section>
+        <h2>EDUCATION</h2>
+        <ul>
+          <li>Criso Rey West Elementary School, School Year: 2011 - 2017</li>
+          <li>Junior High School, School Year:2017 - 2021</li>
+          <li>Senior High School, School Year:2021 - 2022</li>
+          <li>Dominican College of Tarlac School Year: 2023 - Present</li>
+        </ul>
+      </section>
+      <section>
+        <h2>PROJECTS / EXPERIENCE</h2>
+        <ul>
+          <li>In our Systems Analysis and Design (SAD) subject, we created a project called <b>“Parking Ticketing System.”</b>
+          It is a system that registers vehicles, gives out parking tickets, and shows daily parking records.
+
+          I was the Project Manager of the group. I assigned tasks to members, managed the schedule, and helped in writing the documents.
+          We successfully presented and defended the system as part of our final requirement, using the tools and knowledge we learned in class.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>CONTACT ME</h2>
+        <form>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="4" placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <section class="comment-section">
+        <h2>Leave a Comment</h2>
+        <input type="text" id="commentName" placeholder="Your Name">
+        <textarea id="commentText" rows="3" placeholder="Your Comment"></textarea>
+        <button onclick="submitComment()">Submit</button>
+        <div id="commentDisplay"></div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function submitComment() {
+      const name = document.getElementById('commentName').value;
+      const comment = document.getElementById('commentText').value;
+
+      if (name && comment) {
+        const commentDisplay = document.getElementById('commentDisplay');
+        const newComment = document.createElement('div');
+        newComment.className = 'comment';
+        newComment.innerHTML = `<strong>${name}</strong><br>${comment}`;
+        commentDisplay.appendChild(newComment);
+        document.getElementById('commentName').value = '';
+        document.getElementById('commentText').value = '';
+      }
+    }
+  </script>
+      </div>
+  </div>
+</body>
+</html>
